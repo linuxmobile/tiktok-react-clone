@@ -3,8 +3,10 @@ import UseAppRecommendation from './UseAppRecommendation.jsx'
 
 function App() {
   return (
-    <div className="">
-      <UseAppRecommendation />
+    <div className="App">
+      <main>
+        <UseAppRecommendation />
+      </main>
     </div>
   )
 }
