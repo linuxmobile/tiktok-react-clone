@@ -6,10 +6,10 @@ export default {
 	],
 	theme: {
 		extend: {
-      fontFamily: {
-        'sans': ['Proxima Nova', 'sans-serif'],
-      }
-    },
+			fontFamily: {
+				'sans': ['Proxima Nova', 'sans-serif'],
+			},
+		},
 	},
 	plugins: [],
 }
