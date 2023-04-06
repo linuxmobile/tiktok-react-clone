@@ -19,5 +19,5 @@
   }
 
 main {
-  @apply border-[1px] border-white aspect-video max-w-sm w-screen h-screen
+  @apply border-[1px] border-white aspect-video max-w-sm w-screen overflow-y-hidden h-screen
 }
