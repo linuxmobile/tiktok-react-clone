@@ -14,10 +14,19 @@
   src: url('assets/Proxima-Nova-Semibold.woff2') format('woff2');
 }
 
+html {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+} 
+
 .App {
   @apply bg-gray-950 font-sans h-screen grid place-content-center
   }
 
 main {
-  @apply border-[1px] border-white aspect-video max-w-sm w-screen overflow-y-hidden h-screen
+  @apply border-[1px] border-white w-[375px] flex items-center justify-center
 }

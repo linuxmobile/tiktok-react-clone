@@ -18,8 +18,8 @@ function useAppRecommendationModal() {
 
   if (showModal) {
 	return (
-		<div className='relative w-full h-full'>
-			<div className='bg-white absolute bottom-0 rounded-t-lg w-full px-5 py-4 pt-10'>
+		<div className='relative w-full'>
+			<div className='bg-white absolute bottom-0 rounded-t-lg w-full px-5 py-4 pt-10 z-10'>
 				<div className='flex flex-col items-center gap-2'>
 					<div className='absolute -top-6'>
 						<img

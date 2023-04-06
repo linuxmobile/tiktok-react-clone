@@ -22,11 +22,11 @@ function VideoPlayer() {
         src={TiktokVideo}
         ref={video}
         controls={false}
-        className='w-full h-full'
+        className='w-[90%]'
         onClick={handlePlay}
       >
       </video>
-        <button ref={btn} onClick={handlePlay} className='absolute bg-[url(pause.png)] z-10 inset-0 m-auto w-16 h-16 bg-contain bg-no-repeat transition-all ease-in-out duration-300'></button>
+        <button ref={btn} onClick={handlePlay} className='absolute bg-[url(pause.png)] z-[1] inset-0 m-auto w-16 h-16 bg-contain bg-no-repeat transition-all ease-in-out duration-300'></button>
 		</div>
 	)
 }
